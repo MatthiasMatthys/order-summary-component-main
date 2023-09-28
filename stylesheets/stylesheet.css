@@ -1,0 +1,141 @@
+body {
+    background-color: #D6E1F0;
+}
+
+.container {
+    margin: auto;
+    margin-top: 10%;
+    width: 450px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 25px;
+}
+
+.button-group button {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.image {
+    border-radius: 15px 15px 0px 0px;
+}
+
+div {
+    text-align: center;
+}
+
+h2,
+h3,
+p,
+li,
+button {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+    color: hsl(223, 47%, 23%);
+}
+
+h3 {
+    font-weight: 700;
+    margin: 0px 0px -15px 0px;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+}
+
+.musicicon {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.annualplan {
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.changeplan {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.plancontainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+.change{
+    background-color: white;
+    border: none;
+    color:#3C2BDB;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.payment{
+    background-color: #382AE1;
+    width: 75%;
+    border: 0px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 900;
+    color: white;
+}
+
+.cancel{
+    background-color: white;
+    width: 75%;
+    border: 0px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 900;
+    color: gray;
+}
+
+.cancel:hover{
+    color: black;
+    cursor: pointer;
+    
+}
+
+.payment:hover{
+    cursor: pointer;
+    background-color: hsl(225, 74%, 74%);
+}
+
+.change:hover{
+    cursor: pointer;
+    color: hsl(225, 74%, 74%);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: auto;
+        margin-top: 10%;
+        width: 375px;
+        background-color: white;
+        border-radius: 15px 15px 15px 15px;
+        padding-bottom: 25px;
+    }
+    .image{
+        width: 375px;
+    }
+}
